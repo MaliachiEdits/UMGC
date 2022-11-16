@@ -13,12 +13,9 @@ on:
       - main
 
 jobs:
-
   build-and-deploy:
-
     runs-on: windows-latest
-
-     steps:
+    steps:
 
     - uses: actions/checkout@main
 
